@@ -39,7 +39,7 @@ function App() {
           <Route
             exact
             path='/GitHub'
-            component={() => (window.location.href = 'https://github.com/TirtharajMisra')}
+            component={() => (window.location.href = 'https://github.com/belferink1996')}
           />
         </Switch>
       </div>

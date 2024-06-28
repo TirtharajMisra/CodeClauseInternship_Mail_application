@@ -16,8 +16,4 @@ body {
 .scroll::-webkit-scrollbar {
   display: none;
 }
-/*
-  .scroll::-webkit-scrollbar-track {}
-  .scroll::-webkit-scrollbar-button {}
-  .scroll::-webkit-scrollbar-thumb {} 
-*/
+

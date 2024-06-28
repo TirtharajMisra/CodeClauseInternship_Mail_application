@@ -22,8 +22,7 @@ const instance = new mongoose.Schema(
   },
 );
 
-// modelName = model name   --->   https://mongoosejs.com/docs/guide.html
-// note: use a singular name, mongoose automatically creates a collection like so -> model: 'Person' === collection: 'people'
+
 const modelName = 'Account';
 
 export default mongoose.model(modelName, instance);

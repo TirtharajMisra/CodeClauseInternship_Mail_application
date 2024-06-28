@@ -32,7 +32,7 @@ export default function AccountControls({ user, toggleShowEditImage, toggleShowP
         {user.email}
       </p>
 
-      <Button onClick={() => history.push('/GitHub')}>Visit my GitHub page</Button>
+      
       <Button onClick={() => dispatch(logoutAction())}>Logout</Button>
     </div>
   );
