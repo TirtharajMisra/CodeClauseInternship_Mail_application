@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'http://localhost:8080/api/v1';
+const url = 'https://mail-application-1-2.onrender.com/api/v1';
 const headers = (token) => ({
   headers: {
     'Content-Type': 'application/json',
